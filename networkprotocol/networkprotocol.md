@@ -10,7 +10,7 @@ Contoh: **TCP/IP, HTTP, FTP, DNS, DHCP, SMTP, POP3, IMAP**.
 
 Protokol ini memastikan perangkat yang berbeda bisa berkomunikasi dengan standar yang sama.
 
-![Gambar OSI vs TCP/IP](images/h1.jpg)
+![Gambar OSI vs TCP/IP](images/h1.png)
 
 ---
 
@@ -81,7 +81,7 @@ Alur sederhana Internet:
 - **Data Link** → Ethernet, MAC.
 - **Physical** → Kabel, wireless.
 
-![User dalam OSI Layer](images/h7.png)
+![User dalam OSI Layer](images/h7.jpg)
 
 ---
 
