@@ -9,7 +9,7 @@ Repositori ini berisi dokumentasi lengkap tentang **Network Protocol**, arsitekt
 Contoh: **TCP/IP, HTTP, FTP, DNS, DHCP, SMTP, POP3, IMAP**.  
 
 Protokol ini memastikan perangkat yang berbeda bisa berkomunikasi dengan standar yang sama.
-(./images/h1.jpg)
+(images/h1.jpg)
 
 ---
 
@@ -21,7 +21,7 @@ Protokol ini memastikan perangkat yang berbeda bisa berkomunikasi dengan standar
 - **User** → Orang yang menggunakan sistem.
 - **CPU - Process** → CPU mengeksekusi instruksi aplikasi dalam bentuk proses.
 
-(./images/h2.png)
+(images/h2.png)
 ---
 
 ## 3. 🚀 Aplikasi, Proses, dan Komunikasi
@@ -29,7 +29,7 @@ Protokol ini memastikan perangkat yang berbeda bisa berkomunikasi dengan standar
 - **Komunikasi antar process** → Bisa melalui **Inter-Process Communication (IPC)**.
 - **Remote Procedure Call (RPC)** → Memungkinkan satu program memanggil fungsi di komputer lain.
 - **Network TCP/IP** → Digunakan untuk komunikasi data antar komputer.
-(./images/h3.jpg)
+(images/h3.jpg)
 ---
 
 ## 4. 📑 ISO-OSI Model
@@ -42,7 +42,7 @@ Model **OSI (Open Systems Interconnection)** memiliki **7 layer**:
 5. **Session** → Mengatur koneksi antar aplikasi.
 6. **Presentation** → Enkripsi, kompresi, format data.
 7. **Application** → Layanan aplikasi (HTTP, FTP, DNS).
-(./images/h4.jpg)
+(images/h4.jpg)
 ---
 
 ## 5. 🌍 Internet & Alur Kerjanya
@@ -52,14 +52,14 @@ Alur sederhana Internet:
 3. DNS menerjemahkan domain → IP Address.
 4. Data dikirim via TCP/IP melewati router, switch, kabel, dll.
 5. Server merespon → data kembali ke user.
-(./images/h5.jpg)
+(images/h5.jpg)
 ---
 
 ## 6. 📦 Aturan TCP/IP
 - **TCP (Transmission Control Protocol)** → Handshake, reliabilitas, segmentasi data.
 - **IP (Internet Protocol)** → Pengalamatan & routing.
 - Kombinasi ini membentuk **Internet Protocol Suite**.
-(./images/h6.png)
+(images/h6.png)
 ---
 
 ## 7. 👥 Client dan User dalam OSI Layer
@@ -70,7 +70,7 @@ Alur sederhana Internet:
 - **Network** → IP.
 - **Data Link** → Ethernet, MAC.
 - **Physical** → Kabel, wireless.
-(./images/h7.png)
+(images/h7.png)
 
 ---
 
@@ -78,7 +78,7 @@ Alur sederhana Internet:
 1. **Cable (UTP/STP)** → Murah, mudah dipasang.
 2. **Fiber Optic** → Cepat, tahan interferensi.
 3. **Radio Frequency (Wireless/Wi-Fi)** → Praktis, tapi rawan gangguan.
-(./images/h8.jpg)
+(images/h8.jpg)
 ---
 
 ## 9. 🔍 Wireshark & Testing
@@ -93,15 +93,15 @@ Alur sederhana Internet:
 - Gunakan file trace seperti `dns-imp-pacing.gz`.
 - Buka di Wireshark → gunakan filter:
 - Akan terlihat request & response DNS (domain → IP).
-(./images/h9.jpg)
+(images/h9.jpg)
 ---
 
 
 ## 10. 📊 Diagram OSI vs TCP/IP
-(./images/h10.png)
+(images/h10.png)
 
 ## 11. 🌍 Alur Kerja Internet (HTTP/HTTPS)
-(./images/h11.jpg)
+(images/h11.jpg)
 
 ## 📌 Kesimpulan
 - **Network Protocol** = aturan komunikasi antar perangkat.  
