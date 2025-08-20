@@ -12,7 +12,7 @@ Contoh: **TCP/IP, HTTP, FTP, DNS, DHCP, SMTP, POP3, IMAP**.
 Protokol ini memastikan perangkat yang berbeda bisa berkomunikasi dengan standar yang sama.
 
 <div align="center">
-  <img src="images/h1.png" alt="Gambar OSI vs TCP/IP" width="600"/>
+  <img src="images/h1.png" alt="Gambar OSI vs TCP/IP" width="400"/>
 </div>
 
 ---
@@ -27,7 +27,7 @@ Protokol ini memastikan perangkat yang berbeda bisa berkomunikasi dengan standar
 - **CPU - Process** → CPU mengeksekusi instruksi aplikasi dalam bentuk proses
 
 <div align="center">
-  <img src="images/h2.png" alt="Gambar Hardware ke User" width="600"/>
+  <img src="images/h2.png" alt="Gambar Hardware ke User" width="400"/>
 </div>
 
 ---
@@ -40,7 +40,7 @@ Protokol ini memastikan perangkat yang berbeda bisa berkomunikasi dengan standar
 - **Network TCP/IP** → Digunakan untuk komunikasi data antar komputer
 
 <div align="center">
-  <img src="images/h3.jpg" alt="Gambar Aplikasi dan Proses" width="600"/>
+  <img src="images/h3.jpg" alt="Gambar Aplikasi dan Proses" width="400"/>
 </div>
 
 ---
@@ -58,7 +58,7 @@ Model **OSI (Open Systems Interconnection)** memiliki **7 layer**:
 7. **Application** → Layanan aplikasi (HTTP, FTP, DNS)
 
 <div align="center">
-  <img src="images/h4.jpg" alt="Model OSI" width="600"/>
+  <img src="images/h4.jpg" alt="Model OSI" width="400"/>
 </div>
 
 ---
@@ -74,7 +74,7 @@ Alur sederhana Internet:
 5. Server merespon → data kembali ke user
 
 <div align="center">
-  <img src="images/h5.jpg" alt="Alur Internet" width="600"/>
+  <img src="images/h5.jpg" alt="Alur Internet" width="400"/>
 </div>
 
 ---
@@ -86,7 +86,7 @@ Alur sederhana Internet:
 - Kombinasi ini membentuk **Internet Protocol Suite**
 
 <div align="center">
-  <img src="images/h6.png" alt="TCP/IP Protocol" width="600"/>
+  <img src="images/h6.png" alt="TCP/IP Protocol" width="400"/>
 </div>
 
 ---
@@ -102,7 +102,7 @@ Alur sederhana Internet:
 - **Physical** → Kabel, wireless
 
 <div align="center">
-  <img src="images/h7.jpg" alt="User dalam OSI Layer" width="600"/>
+  <img src="images/h7.jpg" alt="User dalam OSI Layer" width="400"/>
 </div>
 
 ---
@@ -114,7 +114,7 @@ Alur sederhana Internet:
 3. **Radio Frequency (Wireless/Wi-Fi)** → Praktis, tapi rawan gangguan
 
 <div align="center">
-  <img src="images/h8.jpg" alt="Media Komunikasi" width="600"/>
+  <img src="images/h8.jpg" alt="Media Komunikasi" width="400"/>
 </div>
 
 ---
@@ -136,7 +136,7 @@ Alur sederhana Internet:
 - Akan terlihat request & response DNS (domain → IP)
 
 <div align="center">
-  <img src="images/h9.jpg" alt="Wireshark Capture" width="600"/>
+  <img src="images/h9.jpg" alt="Wireshark Capture" width="400"/>
 </div>
 
 ---
@@ -144,7 +144,7 @@ Alur sederhana Internet:
 ## 10. 📊 Diagram OSI vs TCP/IP
 
 <div align="center">
-  <img src="images/h10.png" alt="Diagram OSI vs TCP/IP" width="600"/>
+  <img src="images/h10.png" alt="Diagram OSI vs TCP/IP" width="400"/>
 </div>
 
 ---
@@ -152,7 +152,7 @@ Alur sederhana Internet:
 ## 11. 🌍 Alur Kerja Internet (HTTP/HTTPS)
 
 <div align="center">
-  <img src="images/h11.jpg" alt="Alur Kerja Internet" width="600"/>
+  <img src="images/h11.jpg" alt="Alur Kerja Internet" width="400"/>
 </div>
 
 ---
