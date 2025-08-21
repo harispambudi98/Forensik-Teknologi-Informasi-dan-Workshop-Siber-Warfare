@@ -63,7 +63,7 @@ Warga sipil mendapatkan perlindungan khusus selama konflik. Beberapa prinsip per
 
 ---
 
-![Palang Merah](images/h1.jpg)
+![Palang Merah](images/h1.png)
 
 *Simbol Palang Merah menandakan perlindungan medis yang harus dihormati.*
 
