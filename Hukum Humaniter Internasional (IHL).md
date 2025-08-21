@@ -46,7 +46,7 @@ Prinsip utama HHI adalah **Distinction (Pembedaan)**: membedakan antara kombatan
 
 ---
 
-![Tentara dan warga sipil](images/.h4.jpg)
+![Tentara dan warga sipil](images/h4.jpg)
 
 *Gambar: Perlindungan warga sipil sangat penting dalam konflik bersenjata.*
 
@@ -63,7 +63,7 @@ Warga sipil mendapatkan perlindungan khusus selama konflik. Beberapa prinsip per
 
 ---
 
-![Palang Merah](images/.h1.jpg)
+![Palang Merah](images/h1.jpg)
 
 *Simbol Palang Merah menandakan perlindungan medis yang harus dihormati.*
 
@@ -87,7 +87,7 @@ Prinsip proporsionalitas memastikan bahwa kerusakan yang timbul akibat serangan 
 
 ---
 
-![Prinsip Proporsionalitas](images/.h2.jpg)
+![Prinsip Proporsionalitas](images/h2.jpg)
 
 *Gambar: Prinsip-prinsip HHI tertuang dalam Konvensi Jenewa.*
 
@@ -119,7 +119,7 @@ Prinsip proporsionalitas memastikan bahwa kerusakan yang timbul akibat serangan 
 
 ---
 
-![Pengungsi perang](images/.h3.jpg)
+![Pengungsi perang](images/h3.jpg)
 
 *Gambar: Pengungsi perang yang membutuhkan perlindungan dan bantuan kemanusiaan.*
 
