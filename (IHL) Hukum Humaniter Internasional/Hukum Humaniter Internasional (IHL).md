@@ -4,10 +4,12 @@
 
 ## 🧭 Pendahuluan
 
-Hukum Humaniter Internasional (HHI), juga dikenal sebagai *International Humanitarian Law (IHL)*, merupakan seperangkat aturan yang mengatur perilaku pihak-pihak yang terlibat dalam konflik bersenjata. Tujuannya adalah untuk:
+Hukum Humaniter Internasional (HHI), atau *International Humanitarian Law (IHL)*, adalah cabang dari hukum internasional yang bertujuan untuk mengatur jalannya konflik bersenjata. Fokus utamanya adalah untuk **melindungi mereka yang tidak ikut serta dalam pertempuran**, serta **membatasi cara dan metode berperang**.
 
-- Melindungi mereka yang tidak atau tidak lagi ikut serta dalam permusuhan (warga sipil, tawanan, korban luka).
-- Membatasi cara-cara bertempur agar tidak menyebabkan penderitaan yang tidak perlu.
+Tujuan utama HHI meliputi:
+
+- Memberikan perlindungan terhadap korban konflik seperti warga sipil, tenaga medis, tawanan, dan mereka yang terluka.
+- Membatasi penderitaan yang tidak perlu dengan mengatur jenis senjata dan taktik yang digunakan.
 
 > **“Perang memang brutal, tapi HHI memastikan bahwa kemanusiaan tetap dipertahankan.”**  
 > – International Committee of the Red Cross (ICRC)
@@ -16,159 +18,155 @@ Hukum Humaniter Internasional (HHI), juga dikenal sebagai *International Humanit
 
 ## ⚔️ Aturan Dasar dalam Konflik Bersenjata
 
-HHI mengatur berbagai aspek penting selama perang berlangsung, di antaranya:
+Hukum Humaniter Internasional menetapkan sejumlah aturan dasar bagi pihak-pihak yang terlibat dalam konflik bersenjata:
 
 ### 1. **Larangan terhadap Senjata Tertentu**
 
-- Senjata kimia dan biologi dilarang.
-- Ranjau anti-personil diatur ketat.
-- Senjata yang menyebabkan penderitaan berlebihan dilarang.
+- Senjata kimia dan biologi sepenuhnya dilarang.
+- Penggunaan ranjau darat dan senjata yang sulit dikendalikan dibatasi.
+- Senjata yang menyebabkan luka yang tidak perlu atau penderitaan berlebihan tidak diperbolehkan.
 
 ### 2. **Pembatasan Metode dan Taktik Perang**
 
-- Dilarang menggunakan taktik yang menyebabkan penderitaan yang tidak perlu.
-- Larangan menyamar sebagai tenaga medis atau relawan kemanusiaan.
-- Larangan melakukan pembalasan yang tidak proporsional.
+- Dilarang menggunakan taktik yang bersifat tidak manusiawi.
+- Tidak boleh menyamar sebagai tenaga medis atau pekerja kemanusiaan.
+- Serangan balasan yang tidak proporsional dengan serangan awal tidak dibenarkan.
 
 ---
 
 ## 🎯 Siapa Target Sah?
 
-Prinsip utama HHI adalah **Distinction (Pembedaan)**: membedakan antara kombatan dan non-kombatan.
-
-| Target Sah                 | Target Tidak Sah                         |
-|---------------------------|-----------------------------------------|
-| Tentara aktif (kombatan)  | Warga sipil yang tidak berperang        |
-| Infrastruktur militer     | Rumah tinggal, sekolah, rumah sakit     |
-| Kendaraan tempur & gudang | Tempat ibadah dan bangunan sipil lain   |
-
-> Menyerang warga sipil atau objek sipil adalah pelanggaran hukum humaniter dan termasuk kejahatan perang.
-
----
+Prinsip utama dalam HHI adalah **Distinction (Pembedaan)**: yaitu membedakan antara kombatan (pejuang bersenjata) dan non-kombatan (warga sipil). 
 
 <div align="center">
 
-<img src="images/h4.jpg" alt="Tentara dan warga sipil" style="max-width:300px; width:40%; height:auto;"/>
+| **Target Sah**                 | **Target Tidak Sah**                       |
+|-------------------------------|--------------------------------------------|
+| Tentara aktif (kombatan)      | Warga sipil yang tidak terlibat langsung   |
+| Infrastruktur militer         | Sekolah, rumah ibadah, rumah sakit         |
+| Kendaraan tempur dan gudang   | Bangunan sipil lainnya                     |
 
-<p><em>Gambar: Perlindungan warga sipil sangat penting dalam konflik bersenjata.</em></p>
+</div>
 
+> Serangan terhadap warga sipil atau objek sipil merupakan pelanggaran berat terhadap hukum humaniter dan dapat dikategorikan sebagai **kejahatan perang**.
+
+<div align="center">
+  <img src="images/h4.jpg" alt="Tentara dan warga sipil" width="40%">
+  <p><em>Gambar: Perlindungan warga sipil sangat penting dalam konflik bersenjata.</em></p>
 </div>
 
 ---
 
 ## 🛡️ Perlindungan Terhadap Warga Sipil
 
-Warga sipil mendapatkan perlindungan khusus selama konflik. Beberapa prinsip perlindungan tersebut adalah:
+Warga sipil memiliki hak atas perlindungan khusus dalam situasi konflik. HHI menekankan bahwa:
 
-- **Dilarang menyerang warga sipil secara langsung.**
-- Warga sipil berhak atas bantuan kemanusiaan.
-- Infrastruktur penting seperti rumah sakit harus dijaga dan tidak diserang.
-- Tenaga medis dan pekerja kemanusiaan memiliki status khusus dan dilindungi.
-
----
+- Warga sipil tidak boleh dijadikan sasaran serangan.
+- Mereka berhak menerima bantuan kemanusiaan tanpa diskriminasi.
+- Fasilitas sipil seperti rumah sakit dan sekolah harus dijaga dari serangan.
+- Tenaga medis dan relawan kemanusiaan dilindungi oleh simbol-simbol khusus seperti **Palang Merah**.
 
 <div align="center">
-
-<img src="images/h1.png" alt="Palang Merah" style="max-width:300px; width:40%; height:auto;"/>
-
-<p><em>Simbol Palang Merah menandakan perlindungan medis yang harus dihormati.</em></p>
-
+  <img src="images/h1.png" alt="Palang Merah" width="40%">
+  <p><em>Simbol Palang Merah menandakan perlindungan medis yang harus dihormati.</em></p>
 </div>
 
 ---
 
 ## ⚖️ Prinsip Proporsionalitas
 
-Prinsip proporsionalitas memastikan bahwa kerusakan yang timbul akibat serangan tidak berlebihan dibandingkan keuntungan militer yang diharapkan.
+Prinsip **Proporsionalitas** dalam HHI mencegah tindakan militer yang keuntungannya tidak sepadan dengan kerugian sipil yang ditimbulkan.
 
 ### Penjelasan:
 
-- Jika serangan militer kemungkinan menimbulkan korban sipil yang besar, sedangkan keuntungan militernya kecil, maka serangan tersebut dilarang.
-- Prinsip ini mengedepankan keseimbangan antara tujuan militer dan perlindungan kemanusiaan.
+- Serangan hanya boleh dilakukan jika keuntungan militer yang dihasilkan **jauh lebih besar** daripada risiko atau korban sipil.
+- Tujuan utama adalah meminimalkan penderitaan dan melindungi kemanusiaan.
 
-### Contoh:
-
-| Serangan                            | Korban Sipil | Keuntungan Militer | Diperbolehkan? |
-|-----------------------------------|--------------|--------------------|----------------|
-| Serangan terhadap pangkalan militer | Sedikit      | Besar              | Ya             |
-| Bom besar ke daerah padat penduduk | Banyak       | Minimal            | Tidak          |
-
----
+### Contoh Penerapan:
 
 <div align="center">
 
-<img src="images/h2.jpg" alt="Prinsip Proporsionalitas" style="max-width:300px; width:40%; height:auto;"/>
+| **Jenis Serangan**                    | **Korban Sipil** | **Keuntungan Militer** | **Diperbolehkan?** |
+|--------------------------------------|------------------|------------------------|---------------------|
+| Serangan terhadap pangkalan militer  | Sedikit          | Besar                  | ✅ Ya                |
+| Bom besar ke daerah padat penduduk   | Banyak           | Minimal                | ❌ Tidak             |
 
-<p><em>Gambar: Prinsip-prinsip HHI tertuang dalam Konvensi Jenewa.</em></p>
+</div>
 
+<div align="center">
+  <img src="images/h2.jpg" alt="Proporsionalitas" width="40%">
+  <p><em>Gambar: Prinsip HHI dituangkan dalam Konvensi Jenewa.</em></p>
 </div>
 
 ---
 
 ## 📜 Dasar Hukum Humaniter Internasional
 
-| Dokumen / Konvensi                | Isi Pokok                                                |
-|----------------------------------|---------------------------------------------------------|
-| **Konvensi Jenewa 1949**          | Perlindungan bagi korban perang dan warga sipil.        |
-| **Protokol Tambahan I (1977)**    | Aturan untuk konflik internasional.                      |
-| **Protokol Tambahan II (1977)**   | Aturan untuk konflik non-internasional.                  |
-| **Statuta Roma (1998)**            | Pembentukan Mahkamah Pidana Internasional (ICC), pelanggaran HHI menjadi kejahatan perang. |
+Berikut adalah dokumen-dokumen utama yang menjadi landasan HHI:
+
+<div align="center">
+
+| **Dokumen / Konvensi**              | **Isi Pokok**                                                  |
+|------------------------------------|----------------------------------------------------------------|
+| **Konvensi Jenewa 1949**           | Perlindungan bagi korban perang dan warga sipil.              |
+| **Protokol Tambahan I (1977)**     | Aturan untuk konflik bersenjata internasional.                |
+| **Protokol Tambahan II (1977)**    | Aturan untuk konflik bersenjata non-internasional.            |
+| **Statuta Roma (1998)**            | Pembentukan Mahkamah Pidana Internasional (ICC).              |
+
+</div>
 
 ---
 
 ## 📊 Penerapan HHI di Dunia Nyata
 
-### Contoh Kasus
+### 1. **Konflik di Suriah**  
+Serangan terhadap rumah sakit, sekolah, dan fasilitas sipil lainnya selama konflik di Suriah dianggap sebagai pelanggaran berat terhadap HHI.
 
-1. **Konflik di Suriah**  
-   Banyak laporan penyerangan terhadap rumah sakit dan warga sipil, yang melanggar HHI.
+### 2. **Perang Dunia II**  
+Kejahatan kemanusiaan besar seperti Holocaust dan serangan terhadap warga sipil menjadi latar belakang lahirnya Konvensi Jenewa 1949.
 
-2. **Perang Dunia II**  
-   Pengembangan Konvensi Jenewa 1949 sebagai respons terhadap kekejaman perang.
-
-3. **Konflik di Afghanistan**  
-   Upaya meminimalisir korban sipil menjadi perhatian penting bagi pasukan internasional.
-
----
+### 3. **Konflik di Afghanistan**  
+Pasukan internasional sering menghadapi dilema antara tujuan militer dan perlindungan sipil — sehingga penerapan prinsip proporsionalitas menjadi sangat penting.
 
 <div align="center">
-
-<img src="images/h3.jpg" alt="Pengungsi perang" style="max-width:300px; width:40%; height:auto;"/>
-
-<p><em>Gambar: Pengungsi perang yang membutuhkan perlindungan dan bantuan kemanusiaan.</em></p>
-
+  <img src="images/h3.jpg" alt="Pengungsi perang" width="40%">
+  <p><em>Gambar: Pengungsi perang yang membutuhkan perlindungan dan bantuan kemanusiaan.</em></p>
 </div>
 
 ---
 
 ## 🧠 Kesimpulan
 
-Hukum Humaniter Internasional adalah fondasi penting untuk menjaga kemanusiaan dalam peperangan. Dengan:
+Hukum Humaniter Internasional hadir bukan untuk menghentikan perang, melainkan untuk **mengatur dan membatasi penderitaan yang disebabkan oleh perang**. Beberapa prinsip pentingnya adalah:
 
-- **Aturan yang jelas** tentang siapa yang boleh menjadi target,
-- **Perlindungan warga sipil dan infrastruktur penting**, serta
-- **Prinsip proporsionalitas** untuk menghindari kerugian yang berlebihan,
+- **Pembedaan antara kombatan dan non-kombatan.**
+- **Perlindungan warga sipil dan fasilitas penting.**
+- **Proporsionalitas dalam serangan.**
 
-HHI mengingatkan kita bahwa bahkan di medan perang, **nilai kemanusiaan harus dijunjung tinggi**.
+Dengan adanya HHI, dunia diingatkan bahwa bahkan dalam konflik bersenjata, **kemanusiaan tetap harus dihormati**.
 
 ---
 
 ## 📚 Referensi dan Bacaan Lanjutan
 
 - [International Committee of the Red Cross (ICRC)](https://www.icrc.org)
-- [Konvensi Jenewa 1949](https://ihl-databases.icrc.org/ihl/INTRO/365)
-- [Statuta Roma Mahkamah Pidana Internasional](https://www.icc-cpi.int/resource-library/documents/rs-eng.pdf)
-- Geneva Academy – *International Humanitarian Law & Policy*  
-- United Nations Office for the Coordination of Humanitarian Affairs (OCHA)
+- [Konvensi Jenewa 1949 - ICRC](https://ihl-databases.icrc.org/ihl/INTRO/365)
+- [Statuta Roma Mahkamah Pidana Internasional (ICC)](https://www.icc-cpi.int/resource-library/documents/rs-eng.pdf)
+- [Geneva Academy – International Humanitarian Law](https://www.geneva-academy.ch/)
+- [United Nations OCHA](https://www.unocha.org)
+- [Human Rights Watch – Laws of War](https://www.hrw.org/topic/arms/laws-war)
+- [Amnesty International – IHL](https://www.amnesty.org/en/what-we-do/armed-conflict/)
+- [UNHCR – Hukum Perlindungan Pengungsi](https://www.unhcr.org)
 
 ---
 
 <div align="center" style="margin-top: 30px; font-size: 0.9rem; color: #555;">
 
-Disusun oleh:<br>
-<strong>Sertu Pom Bana Ridho W.</strong><br>
-<strong>Sertu Mar Putra R.</strong><br>
-<strong>Kls Lpu Haris P.</strong><br><br>
-<i>Tanggal: Agustus 2025</i>
+**Disusun oleh:**  
+**Sertu Pom Bana Ridho W.**  
+**Sertu Mar Putra R.**  
+**Kls Lpu Haris P.**  
+
+<i>Agustus 2025</i>
 
 </div>
