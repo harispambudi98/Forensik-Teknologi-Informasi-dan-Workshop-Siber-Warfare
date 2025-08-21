@@ -45,10 +45,8 @@ Prinsip utama HHI adalah **Distinction (Pembedaan)**: membedakan antara kombatan
 > Menyerang warga sipil atau objek sipil adalah pelanggaran hukum humaniter dan termasuk kejahatan perang.
 
 <div align="center">
-
-![Tentara dan warga sipil](images/.h4.jpg){ width=600px }  
-*Gambar: Perlindungan warga sipil sangat penting dalam konflik bersenjata.*
-
+  <img src="images/.h4.jpg" alt="Tentara dan warga sipil" width="600px" />
+  <p><em>Gambar: Perlindungan warga sipil sangat penting dalam konflik bersenjata.</em></p>
 </div>
 
 ---
@@ -63,10 +61,8 @@ Warga sipil mendapatkan perlindungan khusus selama konflik. Beberapa prinsip per
 - Tenaga medis dan pekerja kemanusiaan memiliki status khusus dan dilindungi.
 
 <div align="center">
-
-![Palang Merah](images/.h1.jpg){ width=600px }  
-*Simbol Palang Merah menandakan perlindungan medis yang harus dihormati.*
-
+  <img src="images/.h1.jpg" alt="Simbol Palang Merah" width="600px" />
+  <p><em>Simbol Palang Merah menandakan perlindungan medis yang harus dihormati.</em></p>
 </div>
 
 ---
@@ -88,10 +84,8 @@ Prinsip proporsionalitas memastikan bahwa kerusakan yang timbul akibat serangan 
 | Bom besar ke daerah padat penduduk | Banyak       | Minimal            | Tidak          |
 
 <div align="center">
-
-![Proportionality](images/.h2.jpg){ width=600px }  
-*Gambar: Prinsip-prinsip HHI tertuang dalam Konvensi Jenewa.*
-
+  <img src="images/.h2.jpg" alt="Prinsip Proporsionalitas" width="600px" />
+  <p><em>Gambar: Prinsip-prinsip HHI tertuang dalam Konvensi Jenewa.</em></p>
 </div>
 
 ---
@@ -121,10 +115,8 @@ Prinsip proporsionalitas memastikan bahwa kerusakan yang timbul akibat serangan 
    Upaya meminimalisir korban sipil menjadi perhatian penting bagi pasukan internasional.
 
 <div align="center">
-
-![Pengungsi perang](images/.h3.jpg){ width=600px }  
-*Gambar: Pengungsi perang yang membutuhkan perlindungan dan bantuan kemanusiaan.*
-
+  <img src="images/.h3.jpg" alt="Pengungsi perang" width="600px" />
+  <p><em>Gambar: Pengungsi perang yang membutuhkan perlindungan dan bantuan kemanusiaan.</em></p>
 </div>
 
 ---
@@ -152,9 +144,9 @@ HHI mengingatkan kita bahwa bahkan di medan perang, **nilai kemanusiaan harus di
 ---
 
 <div align="center" style="margin-top: 30px; font-size: 0.9rem; color: #555;">
-Disusun oleh:<br>
-<strong>Sertu Pom Bana Ridho W.</strong><br>
-<strong>Sertu Mar Putra R.</strong><br>
-<strong>Kls Lpu Haris P.</strong><br><br>
-<i>Tanggal: Agustus 2025</i>
+  Disusun oleh:<br>
+  <strong>Sertu Pom Bana Ridho W.</strong><br>
+  <strong>Sertu Mar Putra R.</strong><br>
+  <strong>Kls Lpu Haris P.</strong><br><br>
+  <i>Tanggal: Agustus 2025</i>
 </div>
