@@ -36,18 +36,19 @@ HHI mengatur berbagai aspek penting selama perang berlangsung, di antaranya:
 
 Prinsip utama HHI adalah **Distinction (Pembedaan)**: membedakan antara kombatan dan non-kombatan.
 
-| Target Sah                 | Target Tidak Sah                         |
-|---------------------------|-----------------------------------------|
-| Tentara aktif (kombatan)  | Warga sipil yang tidak berperang        |
-| Infrastruktur militer     | Rumah tinggal, sekolah, rumah sakit     |
-| Kendaraan tempur & gudang | Tempat ibadah dan bangunan sipil lain   |
+| Target Sah                | Target Tidak Sah                        |
+|--------------------------|----------------------------------------|
+| Tentara aktif (kombatan) | Warga sipil yang tidak berperang       |
+| Infrastruktur militer    | Rumah tinggal, sekolah, rumah sakit    |
+| Kendaraan tempur & gudang| Tempat ibadah dan bangunan sipil lain  |
 
 > Menyerang warga sipil atau objek sipil adalah pelanggaran hukum humaniter dan termasuk kejahatan perang.
 
-<div align="center">
-  <img src="images/.h4.jpg" alt="Tentara dan warga sipil" width="600px" />
-  <p><em>Gambar: Perlindungan warga sipil sangat penting dalam konflik bersenjata.</em></p>
-</div>
+---
+
+![Tentara dan warga sipil](images/.h4.jpg)
+
+*Gambar: Perlindungan warga sipil sangat penting dalam konflik bersenjata.*
 
 ---
 
@@ -60,10 +61,11 @@ Warga sipil mendapatkan perlindungan khusus selama konflik. Beberapa prinsip per
 - Infrastruktur penting seperti rumah sakit harus dijaga dan tidak diserang.
 - Tenaga medis dan pekerja kemanusiaan memiliki status khusus dan dilindungi.
 
-<div align="center">
-  <img src="images/.h1.jpg" alt="Simbol Palang Merah" width="600px" />
-  <p><em>Simbol Palang Merah menandakan perlindungan medis yang harus dihormati.</em></p>
-</div>
+---
+
+![Palang Merah](images/.h1.jpg)
+
+*Simbol Palang Merah menandakan perlindungan medis yang harus dihormati.*
 
 ---
 
@@ -83,10 +85,11 @@ Prinsip proporsionalitas memastikan bahwa kerusakan yang timbul akibat serangan 
 | Serangan terhadap pangkalan militer | Sedikit      | Besar              | Ya             |
 | Bom besar ke daerah padat penduduk | Banyak       | Minimal            | Tidak          |
 
-<div align="center">
-  <img src="images/.h2.jpg" alt="Prinsip Proporsionalitas" width="600px" />
-  <p><em>Gambar: Prinsip-prinsip HHI tertuang dalam Konvensi Jenewa.</em></p>
-</div>
+---
+
+![Prinsip Proporsionalitas](images/.h2.jpg)
+
+*Gambar: Prinsip-prinsip HHI tertuang dalam Konvensi Jenewa.*
 
 ---
 
@@ -114,10 +117,11 @@ Prinsip proporsionalitas memastikan bahwa kerusakan yang timbul akibat serangan 
 3. **Konflik di Afghanistan**  
    Upaya meminimalisir korban sipil menjadi perhatian penting bagi pasukan internasional.
 
-<div align="center">
-  <img src="images/.h3.jpg" alt="Pengungsi perang" width="600px" />
-  <p><em>Gambar: Pengungsi perang yang membutuhkan perlindungan dan bantuan kemanusiaan.</em></p>
-</div>
+---
+
+![Pengungsi perang](images/.h3.jpg)
+
+*Gambar: Pengungsi perang yang membutuhkan perlindungan dan bantuan kemanusiaan.*
 
 ---
 
@@ -143,10 +147,9 @@ HHI mengingatkan kita bahwa bahkan di medan perang, **nilai kemanusiaan harus di
 
 ---
 
-<div align="center" style="margin-top: 30px; font-size: 0.9rem; color: #555;">
-  Disusun oleh:<br>
-  <strong>Sertu Pom Bana Ridho W.</strong><br>
-  <strong>Sertu Mar Putra R.</strong><br>
-  <strong>Kls Lpu Haris P.</strong><br><br>
-  <i>Tanggal: Agustus 2025</i>
-</div>
+Disusun oleh:  
+**Sertu Pom Bana Ridho W.**  
+**Sertu Mar Putra R.**  
+**Kls Lpu Haris P.**
+
+_Tanggal: Agustus 2025_
