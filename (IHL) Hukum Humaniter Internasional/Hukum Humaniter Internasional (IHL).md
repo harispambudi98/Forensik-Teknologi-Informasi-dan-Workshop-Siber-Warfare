@@ -44,12 +44,8 @@ Prinsip utama HHI adalah **Distinction (Pembedaan)**: membedakan antara kombatan
 
 > Menyerang warga sipil atau objek sipil adalah pelanggaran hukum humaniter dan termasuk kejahatan perang.
 
-<div align="center">
-
-![Tentara dan warga sipil](images/.h4.jpg){ width=600px }  
+![Tentara dan warga sipil](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/War_Displaced_Civilians.jpg/640px-War_Displaced_Civilians.jpg)  
 *Gambar: Perlindungan warga sipil sangat penting dalam konflik bersenjata.*
-
-</div>
 
 ---
 
@@ -57,17 +53,13 @@ Prinsip utama HHI adalah **Distinction (Pembedaan)**: membedakan antara kombatan
 
 Warga sipil mendapatkan perlindungan khusus selama konflik. Beberapa prinsip perlindungan tersebut adalah:
 
-- **Dilarang menyerang warga sipil secara langsung.**
+- **Dilarang menyerang warga sipil secara langsung**.
 - Warga sipil berhak atas bantuan kemanusiaan.
 - Infrastruktur penting seperti rumah sakit harus dijaga dan tidak diserang.
 - Tenaga medis dan pekerja kemanusiaan memiliki status khusus dan dilindungi.
 
-<div align="center">
-
-![Palang Merah](images/.h1.jpg){ width=600px }  
+![Palang Merah](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Red_Cross_on_white_background.svg/600px-Red_Cross_on_white_background.svg.png)  
 *Simbol Palang Merah menandakan perlindungan medis yang harus dihormati.*
-
-</div>
 
 ---
 
@@ -87,12 +79,8 @@ Prinsip proporsionalitas memastikan bahwa kerusakan yang timbul akibat serangan 
 | Serangan terhadap pangkalan militer | Sedikit      | Besar              | Ya             |
 | Bom besar ke daerah padat penduduk | Banyak       | Minimal            | Tidak          |
 
-<div align="center">
-
-![Proportionality](images/.h2.jpg){ width=600px }  
+![Proportionality](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Geneva_Conventions_document.jpg/640px-Geneva_Conventions_document.jpg)  
 *Gambar: Prinsip-prinsip HHI tertuang dalam Konvensi Jenewa.*
-
-</div>
 
 ---
 
@@ -120,12 +108,8 @@ Prinsip proporsionalitas memastikan bahwa kerusakan yang timbul akibat serangan 
 3. **Konflik di Afghanistan**  
    Upaya meminimalisir korban sipil menjadi perhatian penting bagi pasukan internasional.
 
-<div align="center">
-
-![Pengungsi perang](images/.h3.jpg){ width=600px }  
+![Pengungsi perang](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Refugees_in_Sudan_in_2012.jpg/640px-Refugees_in_Sudan_in_2012.jpg)  
 *Gambar: Pengungsi perang yang membutuhkan perlindungan dan bantuan kemanusiaan.*
-
-</div>
 
 ---
 
@@ -151,10 +135,9 @@ HHI mengingatkan kita bahwa bahkan di medan perang, **nilai kemanusiaan harus di
 
 ---
 
-<div align="center" style="margin-top: 30px; font-size: 0.9rem; color: #555;">
-Disusun oleh:<br>
-<strong>Sertu Pom Bana Ridho W.</strong><br>
-<strong>Sertu Mar Putra R.</strong><br>
-<strong>Kls Lpu Haris P.</strong><br><br>
-<i>Tanggal: Agustus 2025</i>
-</div>
+*Disusun oleh: Sertu Pom Bana Ridho W.*
+              *Sertu Mar Putra R.*
+              *Kls Lpu Haris P.*  
+              
+*Tanggal: Agustus 2025*
+
