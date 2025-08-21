@@ -48,7 +48,7 @@ Prinsip utama HHI adalah **Distinction (Pembedaan)**: membedakan antara kombatan
 
 <div align="center">
 
-<img src="images/h4.jpg" alt="Tentara dan warga sipil" style="max-width:600px; width:90%; height:auto;"/>
+<img src="images/h4.jpg" alt="Tentara dan warga sipil" style="max-width:300px; width:40%; height:auto;"/>
 
 <p><em>Gambar: Perlindungan warga sipil sangat penting dalam konflik bersenjata.</em></p>
 
@@ -69,7 +69,7 @@ Warga sipil mendapatkan perlindungan khusus selama konflik. Beberapa prinsip per
 
 <div align="center">
 
-<img src="images/h1.png" alt="Palang Merah" style="max-width:600px; width:90%; height:auto;"/>
+<img src="images/h1.png" alt="Palang Merah" style="max-width:300px; width:40%; height:auto;"/>
 
 <p><em>Simbol Palang Merah menandakan perlindungan medis yang harus dihormati.</em></p>
 
@@ -97,7 +97,7 @@ Prinsip proporsionalitas memastikan bahwa kerusakan yang timbul akibat serangan 
 
 <div align="center">
 
-<img src="images/h2.jpg" alt="Prinsip Proporsionalitas" style="max-width:600px; width:90%; height:auto;"/>
+<img src="images/h2.jpg" alt="Prinsip Proporsionalitas" style="max-width:300px; width:40%; height:auto;"/>
 
 <p><em>Gambar: Prinsip-prinsip HHI tertuang dalam Konvensi Jenewa.</em></p>
 
@@ -133,7 +133,7 @@ Prinsip proporsionalitas memastikan bahwa kerusakan yang timbul akibat serangan 
 
 <div align="center">
 
-<img src="images/h3.jpg" alt="Pengungsi perang" style="max-width:600px; width:90%; height:auto;"/>
+<img src="images/h3.jpg" alt="Pengungsi perang" style="max-width:300px; width:40%; height:auto;"/>
 
 <p><em>Gambar: Pengungsi perang yang membutuhkan perlindungan dan bantuan kemanusiaan.</em></p>
 
