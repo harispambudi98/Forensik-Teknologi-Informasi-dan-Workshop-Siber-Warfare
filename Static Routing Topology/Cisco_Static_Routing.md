@@ -13,10 +13,10 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
  PC2 ---/                                 \--- PC4
 ```
 
-<div align="center">
-  <img src="image1.png" alt="Topologi Jaringan Static Routing" width="500"/>
-  <p><b>image1.</b> Topologi jaringan Static Routing</p>
-</div>
+<p align="center">
+  <img src="image1.png" alt="image1. Topologi Jaringan Static Routing" width="500"/><br>
+  <b>image1.</b> Topologi Jaringan Static Routing
+</p>
 
 ---
 
@@ -41,13 +41,15 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
 | PC1       | 192.168.1.2  | 255.255.255.0   | 192.168.1.1     |
 | PC2       | 192.168.1.3  | 255.255.255.0   | 192.168.1.1     |
 
-<div align="center">
-  <img src="image2.png" alt="Konfigurasi IP PC1" width="400"/>
-  <p><b>Gambar 2.</b> Konfigurasi IP Address pada PC1</p>
+<p align="center">
+  <img src="image2.png" alt="Gambar 2. Konfigurasi IP Address pada PC1" width="500"/><br>
+  <b>Gambar 2.</b> Konfigurasi IP Address pada PC1
+</p>
 
-  <img src="image3.png" alt="Konfigurasi IP PC2" width="400"/>
-  <p><b>Gambar 3.</b> Konfigurasi IP Address pada PC2</p>
-</div>
+<p align="center">
+  <img src="image3.png" alt="Gambar 3. Konfigurasi IP Address pada PC2" width="500"/><br>
+  <b>Gambar 3.</b> Konfigurasi IP Address pada PC2
+</p>
 
 📍 **Subnet 2 – 192.168.3.0/24**  
 | Perangkat | IP Address   | Subnet Mask     | Default Gateway |
@@ -55,13 +57,15 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
 | PC3       | 192.168.3.2  | 255.255.255.0   | 192.168.3.1     |
 | PC4       | 192.168.3.3  | 255.255.255.0   | 192.168.3.1     |
 
-<div align="center">
-  <img src="image4.png" alt="Konfigurasi IP PC3" width="400"/>
-  <p><b>Gambar 4.</b> Konfigurasi IP Address pada PC3</p>
+<p align="center">
+  <img src="image4.png" alt="Gambar 4. Konfigurasi IP Address pada PC3" width="500"/><br>
+  <b>Gambar 4.</b> Konfigurasi IP Address pada PC3
+</p>
 
-  <img src="image5.png" alt="Konfigurasi IP PC4" width="400"/>
-  <p><b>Gambar 5.</b> Konfigurasi IP Address pada PC4</p>
-</div>
+<p align="center">
+  <img src="image5.png" alt="Gambar 5. Konfigurasi IP Address pada PC4" width="500"/><br>
+  <b>Gambar 5.</b> Konfigurasi IP Address pada PC4
+</p>
 
 ---
 
@@ -72,13 +76,15 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
 - **Gi0/1** → ke Router2 (`10.10.10.1/30`)  
 - **Static Route** → mengenali jaringan `192.168.3.0/24`  
 
-<div align="center">
-  <img src="image6.png" alt="Konfigurasi Router1 Gi0/0" width="400"/>
-  <p><b>Gambar 6.</b> Konfigurasi IP Address pada Router1 Gi0/0</p>
+<p align="center">
+  <img src="image6.png" alt="Gambar 6. Konfigurasi Router1 Gi0/0" width="500"/><br>
+  <b>Gambar 6.</b> Konfigurasi Router1 Gi0/0
+</p>
 
-  <img src="image7.png" alt="Konfigurasi Router1 Gi0/1" width="400"/>
-  <p><b>Gambar 7.</b> Konfigurasi IP Address pada Router1 Gi0/1</p>
-</div>
+<p align="center">
+  <img src="image7.png" alt="Gambar 7. Konfigurasi Router1 Gi0/1" width="500"/><br>
+  <b>Gambar 7.</b> Konfigurasi Router1 Gi0/1
+</p>
 
 ```bash
 Router> enable
@@ -105,13 +111,15 @@ Router# write memory
 - **Gi0/1** → ke Router1 (`10.10.10.2/30`)  
 - **Static Route** → mengenali jaringan `192.168.1.0/24`  
 
-<div align="center">
-  <img src="image8.png" alt="Konfigurasi Router2 Gi0/0" width="400"/>
-  <p><b>Gambar 8.</b> Konfigurasi IP Address pada Router2 Gi0/0</p>
+<p align="center">
+  <img src="image8.png" alt="Gambar 8. Konfigurasi Router2 Gi0/0" width="500"/><br>
+  <b>Gambar 8.</b> Konfigurasi Router2 Gi0/0
+</p>
 
-  <img src="image9.png" alt="Konfigurasi Router2 Gi0/1" width="400"/>
-  <p><b>Gambar 9.</b> Konfigurasi IP Address pada Router2 Gi0/1</p>
-</div>
+<p align="center">
+  <img src="image9.png" alt="Gambar 9. Konfigurasi Router2 Gi0/1" width="500"/><br>
+  <b>Gambar 9.</b> Konfigurasi Router2 Gi0/1
+</p>
 
 ```bash
 Router> enable
@@ -146,10 +154,10 @@ PC1> ping 192.168.1.3
 Reply from 192.168.1.3: bytes=32 time<1ms TTL=128
 ```
 
-<div align="center">
-  <img src="image10.png" alt="Ping PC1 ke PC2" width="400"/>
-  <p><b>Gambar 10.</b> Hasil uji ping antar perangkat dalam satu subnet</p>
-</div>
+<p align="center">
+  <img src="image10.png" alt="Gambar 10. Hasil uji ping PC1 ke PC2" width="500"/><br>
+  <b>Gambar 10.</b> Hasil uji ping PC1 ke PC2
+</p>
 
 ✅ **PC2 ↔ PC4 (antar subnet, via 2 router)**  
 ```bash
@@ -157,11 +165,10 @@ PC2> ping 192.168.3.3
 Reply from 192.168.3.3: bytes=32 time<1ms TTL=128
 ```
 
-<div align="center">
-  <img src="image11.png" alt="Ping PC2 ke PC4" width="400"/>
-  <p><b>Gambar 11.</b> Hasil uji ping antar perangkat antar subnet</p>
-</div>
-
+<p align="center">
+  <img src="image11.png" alt="Gambar 11. Hasil uji ping PC2 ke PC4" width="500"/><br>
+  <b>Gambar 11.</b> Hasil uji ping PC2 ke PC4
+</p>
 ---
 
 ## 📌 7. Kesimpulan  
