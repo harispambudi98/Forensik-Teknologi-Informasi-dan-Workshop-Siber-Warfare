@@ -14,8 +14,8 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
 ```
 
 <p align="center">
-  <img src="image1.png" alt="image1. Topologi Jaringan Static Routing" width="500"/><br>
-  <b>image1.</b> Topologi Jaringan Static Routing
+  <img src="./image1.png" alt="image1. Topologi Jaringan Static Routing" width="600"/><br>
+  <b>Gambar 1.</b> Topologi Jaringan Static Routing
 </p>
 
 ---
