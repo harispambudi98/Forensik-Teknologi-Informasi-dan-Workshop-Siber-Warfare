@@ -20,7 +20,6 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
 ---
 
 ## ⚙️ 2. Spesifikasi Perangkat  
-<p align="center">
 | Perangkat | Model       | Jumlah | Keterangan                      |
 |-----------|-------------|--------|---------------------------------|
 | Router    | Cisco 1941  | 2      | Router penghubung antar subnet  |
@@ -29,18 +28,15 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
 | Kabel     | Straight    | –      | PC ↔ Switch ↔ Router            |
 | Kabel     | Cross-Over  | –      | Router ↔ Router                 |
 | Kabel     | Serial (opsional) | – | Untuk modul **WIC-2T**         |
-</p>
 ---
 
 ## 💻 3. Konfigurasi IP Address  
 
 📍 **Subnet 1 – 192.168.1.0/24**  
-<p align="center">
 | Perangkat | IP Address   | Subnet Mask     | Default Gateway |
 |-----------|--------------|-----------------|-----------------|
 | PC1       | 192.168.1.2  | 255.255.255.0   | 192.168.1.1     |
 | PC2       | 192.168.1.3  | 255.255.255.0   | 192.168.1.1     |
-</p>
 
 <p align="center">
   <img src="images/h2.png" alt="Konfigurasi IP PC1" width="500"/><br>
@@ -54,12 +50,10 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
 
 
 📍 **Subnet 2 – 192.168.3.0/24**  
-<p align="center">
 | Perangkat | IP Address   | Subnet Mask     | Default Gateway |
 |-----------|--------------|-----------------|-----------------|
 | PC3       | 192.168.3.2  | 255.255.255.0   | 192.168.3.1     |
 | PC4       | 192.168.3.3  | 255.255.255.0   | 192.168.3.1     |
-</p>
 
 <p align="center">
   <img src="images/h4.png" alt="Gambar 4. Konfigurasi IP Address pada PC3" width="500"/><br>
