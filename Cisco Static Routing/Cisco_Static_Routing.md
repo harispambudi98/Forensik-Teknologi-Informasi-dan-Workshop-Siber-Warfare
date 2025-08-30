@@ -13,7 +13,7 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
  PC2 ---/                                 \--- PC4
 ```
 <p align="center">
-  <img src="images/h1.jpg" width="600">
+  <img src="images/h1.png" width="300">
 </p>
 
 <p align="center"><b>Gambar 1.</b> Topologi Jaringan Static Routing</p>
