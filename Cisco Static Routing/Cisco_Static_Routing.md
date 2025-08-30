@@ -13,10 +13,9 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
  PC2 ---/                                 \--- PC4
 ```
 
-<p align="center">
-  <img src="images/h1.jpg" alt="Topologi Jaringan" width="600"/><br>
-  <b>Gambar 1.</b> Topologi Jaringan Static Routing
-</p>
+<div align="center">
+  <img src="images/h1.png" alt="Gambar OSI vs TCP/IP" width="400"/>
+</div>
 ---
 
 ## ⚙️ 2. Spesifikasi Perangkat  
