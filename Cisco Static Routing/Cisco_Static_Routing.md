@@ -12,11 +12,12 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
  PC1 --- Switch1 --- Router1 === Router2 --- Switch2 --- PC3
  PC2 ---/                                 \--- PC4
 ```
-
 <p align="center">
-  <img src="images/h1.jpg" alt="Topologi Jaringan" width="600"/><br>
-  <b>Gambar 1.</b> Topologi Jaringan Static Routing
+  <img src="images/h1.jpg" width="600">
 </p>
+
+<p align="center"><b>Gambar 1.</b> Topologi Jaringan Static Routing</p>
+
 ---
 
 ## ⚙️ 2. Spesifikasi Perangkat  
