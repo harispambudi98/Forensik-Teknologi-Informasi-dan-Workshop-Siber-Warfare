@@ -20,7 +20,7 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
 ---
 
 ## ⚙️ 2. Spesifikasi Perangkat  
-
+<div align="center">
 | Perangkat | Model       | Jumlah | Keterangan                      |
 |-----------|-------------|--------|---------------------------------|
 | Router    | Cisco 1941  | 2      | Router penghubung antar subnet  |
@@ -29,16 +29,18 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
 | Kabel     | Straight    | –      | PC ↔ Switch ↔ Router            |
 | Kabel     | Cross-Over  | –      | Router ↔ Router                 |
 | Kabel     | Serial (opsional) | – | Untuk modul **WIC-2T**         |
-
+</div>
 ---
 
 ## 💻 3. Konfigurasi IP Address  
 
 📍 **Subnet 1 – 192.168.1.0/24**  
+<div align="center">
 | Perangkat | IP Address   | Subnet Mask     | Default Gateway |
 |-----------|--------------|-----------------|-----------------|
 | PC1       | 192.168.1.2  | 255.255.255.0   | 192.168.1.1     |
 | PC2       | 192.168.1.3  | 255.255.255.0   | 192.168.1.1     |
+</div>
 
 <p align="center">
   <img src="images/h2.png" alt="Konfigurasi IP PC1" width="500"/><br>
@@ -52,18 +54,20 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
 
 
 📍 **Subnet 2 – 192.168.3.0/24**  
+<div align="center">
 | Perangkat | IP Address   | Subnet Mask     | Default Gateway |
 |-----------|--------------|-----------------|-----------------|
 | PC3       | 192.168.3.2  | 255.255.255.0   | 192.168.3.1     |
 | PC4       | 192.168.3.3  | 255.255.255.0   | 192.168.3.1     |
+</div>
 
 <p align="center">
-  <img src="h4.png" alt="Gambar 4. Konfigurasi IP Address pada PC3" width="500"/><br>
+  <img src="images/h4.png" alt="Gambar 4. Konfigurasi IP Address pada PC3" width="500"/><br>
   <b>Gambar 4.</b> Konfigurasi IP Address pada PC3
 </p>
 
 <p align="center">
-  <img src="h5.png" alt="Gambar 5. Konfigurasi IP Address pada PC4" width="500"/><br>
+  <img src="images/h5.png" alt="Gambar 5. Konfigurasi IP Address pada PC4" width="500"/><br>
   <b>Gambar 5.</b> Konfigurasi IP Address pada PC4
 </p>
 
@@ -77,12 +81,12 @@ Tujuan utama adalah memahami konsep **Static Routing**, yaitu menghubungkan dua 
 - **Static Route** → mengenali jaringan `192.168.2.0/24`  
 
 <p align="center">
-  <img src="h6.png" alt="Gambar 6. Konfigurasi Router1 Gi0/0" width="500"/><br>
+  <img src="images/h6.png" alt="Gambar 6. Konfigurasi Router1 Gi0/0" width="500"/><br>
   <b>Gambar 6.</b> Konfigurasi Router1 Gi0/0
 </p>
 
 <p align="center">
-  <img src="h7.png" alt="Gambar 7. Konfigurasi Router1 Gi0/1" width="500"/><br>
+  <img src="images/h7.png" alt="Gambar 7. Konfigurasi Router1 Gi0/1" width="500"/><br>
   <b>Gambar 7.</b> Konfigurasi Router1 Gi0/1
 </p>
 
@@ -120,12 +124,12 @@ Router(config-if)#
 - **Static Route** → mengenali jaringan `192.168.3.0/24`  
 
 <p align="center">
-  <img src="h8.png" alt="Gambar 8. Konfigurasi Router2 Gi0/0" width="500"/><br>
+  <img src="images/h8.png" alt="Gambar 8. Konfigurasi Router2 Gi0/0" width="500"/><br>
   <b>Gambar 8.</b> Konfigurasi Router2 Gi0/0
 </p>
 
 <p align="center">
-  <img src="h9.png" alt="Gambar 9. Konfigurasi Router2 Gi0/1" width="500"/><br>
+  <img src="images/h9.png" alt="Gambar 9. Konfigurasi Router2 Gi0/1" width="500"/><br>
   <b>Gambar 9.</b> Konfigurasi Router2 Gi0/1
 </p>
 
@@ -166,7 +170,7 @@ Reply from 192.168.1.3: bytes=32 time<1ms TTL=128
 ```
 
 <p align="center">
-  <img src="h10.png" alt="Gambar 10. Hasil uji ping PC1 ke PC2" width="500"/><br>
+  <img src="images/h10.png" alt="Gambar 10. Hasil uji ping PC1 ke PC2" width="500"/><br>
   <b>Gambar 10.</b> Hasil uji ping PC1 ke PC2
 </p>
 
@@ -177,7 +181,7 @@ Reply from 192.168.3.3: bytes=32 time<1ms TTL=128
 ```
 
 <p align="center">
-  <img src="h11.png" alt="Gambar 11. Hasil uji ping PC2 ke PC4" width="500"/><br>
+  <img src="images/h11.png" alt="Gambar 11. Hasil uji ping PC2 ke PC4" width="500"/><br>
   <b>Gambar 11.</b> Hasil uji ping PC2 ke PC4
 </p>
 ---
