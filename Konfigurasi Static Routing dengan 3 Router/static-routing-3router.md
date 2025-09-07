@@ -58,7 +58,7 @@ Router# configure terminal
 Router(config)# interface fa0/0
 Router(config-if)# ip address 192.168.1.100 255.255.255.0
 Router(config-if)# no shutdown
-Router(config)# interface s0/0/0
+Router(config)# interface s2/0
 Router(config-if)# ip address 10.10.10.1 255.255.255.0
 Router(config-if)# clock rate 64000
 Router(config-if)# no shutdown
@@ -84,25 +84,27 @@ Router# configure terminal
 Router(config)# interface fa0/0
 Router(config-if)# ip address 192.168.2.100 255.255.255.0
 Router(config-if)# no shutdown
-Router(config)# interface s0/0/0
+Router(config)# interface s2/0
 Router(config-if)# ip address 10.10.10.2 255.255.255.0
 Router(config-if)# no shutdown
-Router(config)# interface s0/0/1
+Router(config)# interface s3/0
 Router(config-if)# ip address 20.20.20.2 255.255.255.0
 Router(config-if)# no shutdown
 Router(config)# ip route 192.168.1.0 255.255.255.0 10.10.10.1
 Router(config)# ip route 192.168.3.0 255.255.255.0 20.20.20.1
 ```
 <p align="center">
-  <img src="images/h4.png" alt="Gambar 4. Konfigurasi Router1 Fa0/0" width="400"/>
-  <img src="images/h5.png" alt="Gambar 5. Konfigurasi Router1 S2/0" width="400"/>
+  <img src="images/h4.png" alt="Gambar 4. Konfigurasi Router1 Fa0/0" width="300"/>
+  <img src="images/h5.png" alt="Gambar 5. Konfigurasi Router1 S2/0" width="300"/>
+  <img src="images/h17.png" alt="Gambar 6. Konfigurasi Router1 s3/0" width="300"/>
 </p>
 
 <p align="center">
   <b>Gambar 4.</b> Konfigurasi Router1 Fa0/0 &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Gambar 5.</b> Konfigurasi Router1 S2/0
+  <b>Gambar 5.</b> Konfigurasi Router1 S2/0 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Gambar 6.</b> Konfigurasi Router1 S3/0
 </p>
-```
+
 
 ### 🔹 Router2
 ```bash
@@ -111,7 +113,7 @@ Router# configure terminal
 Router(config)# interface fa0/0
 Router(config-if)# ip address 192.168.3.100 255.255.255.0
 Router(config-if)# no shutdown
-Router(config)# interface s0/0/0
+Router(config)# interface s2/0
 Router(config-if)# ip address 20.20.20.1 255.255.255.0
 Router(config-if)# clock rate 64000
 Router(config-if)# no shutdown
@@ -119,13 +121,13 @@ Router(config)# ip route 192.168.1.0 255.255.255.0 20.20.20.2
 Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
 ```
 <p align="center">
-  <img src="images/h6.png" alt="Gambar 6. Konfigurasi Router2 Fa0/0" width="400"/>
-  <img src="images/h7.png" alt="Gambar 7. Konfigurasi Router2 S2/0" width="400"/>
+  <img src="images/h6.png" alt="Gambar 7. Konfigurasi Router2 Fa0/0" width="400"/>
+  <img src="images/h7.png" alt="Gambar 8. Konfigurasi Router2 S2/0" width="400"/>
 </p>
 
 <p align="center">
-  <b>Gambar 6.</b> Konfigurasi Router2 Fa0/0 &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Gambar 7.</b> Konfigurasi Router2 S2/0
+  <b>Gambar 7.</b> Konfigurasi Router2 Fa0/0 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Gambar 8.</b> Konfigurasi Router2 S2/0
 </p>
 
 ---
@@ -138,13 +140,13 @@ Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
 | PC2       | 192.168.1.2  | 255.255.255.0   | 192.168.1.100   |
 
 <p align="center">
-  <img src="images/h8.png" alt="Gambar 8. Konfigurasi IP PC1" width="400"/>
-  <img src="images/h9.png" alt="Gambar 9. Konfigurasi IP PC2" width="400"/>
+  <img src="images/h8.png" alt="Gambar 9. Konfigurasi IP PC1" width="400"/>
+  <img src="images/h9.png" alt="Gambar 10. Konfigurasi IP PC2" width="400"/>
 </p>
 
 <p align="center">
-  <b>Gambar 8.</b> Konfigurasi IP PC 1 &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Gambar 9.</b> Konfigurasi IP PC 2
+  <b>Gambar 9.</b> Konfigurasi IP PC 1 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Gambar 10.</b> Konfigurasi IP PC 2
 </p>
 
 📍 **Subnet 2 – 192.168.2.0/24**  
@@ -154,13 +156,13 @@ Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
 | PC4       | 192.168.2.2  | 255.255.255.0   | 192.168.2.100   |
 
 <p align="center">
-  <img src="images/h10.png" alt="Gambar 10. Konfigurasi IP PC3" width="400"/>
-  <img src="images/h11.png" alt="Gambar 11. Konfigurasi IP PC4" width="400"/>
+  <img src="images/h10.png" alt="Gambar 11. Konfigurasi IP PC3" width="400"/>
+  <img src="images/h11.png" alt="Gambar 12. Konfigurasi IP PC4" width="400"/>
 </p>
 
 <p align="center">
-  <b>Gambar 10.</b> Konfigurasi IP PC 3 &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Gambar 11.</b> Konfigurasi IP PC 4
+  <b>Gambar 11.</b> Konfigurasi IP PC 3 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Gambar 12.</b> Konfigurasi IP PC 4
 </p>
 
 📍 **Subnet 3 – 192.168.3.0/24**  
@@ -170,13 +172,13 @@ Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
 | PC6       | 192.168.3.2  | 255.255.255.0   | 192.168.3.100   |
 
 <p align="center">
-  <img src="images/h12.png" alt="Gambar 12. Konfigurasi IP PC5" width="400"/>
-  <img src="images/h13.png" alt="Gambar 13. Konfigurasi IP PC6" width="400"/>
+  <img src="images/h12.png" alt="Gambar 13. Konfigurasi IP PC5" width="400"/>
+  <img src="images/h13.png" alt="Gambar 14. Konfigurasi IP PC6" width="400"/>
 </p>
 
 <p align="center">
-  <b>Gambar 12.</b> Konfigurasi IP PC 5 &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Gambar 13.</b> Konfigurasi IP PC 6
+  <b>Gambar 13.</b> Konfigurasi IP PC 5 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Gambar 14.</b> Konfigurasi IP PC 6
 </p>
 
 ##  🔍 6. Pengujian Koneksi 
@@ -190,8 +192,8 @@ Setelah semua konfigurasi selesai:
  ```
  
  <p align="center">
-   <img src="images/h14.png" alt="Gambar 14. Hasil uji ping PC1 ke PC6" width="500"/><br>
-   <b>Gambar 14.</b> Hasil uji ping PC1 ke PC6
+   <img src="images/h14.png" alt="Gambar 15. Hasil uji ping PC1 ke PC6" width="500"/><br>
+   <b>Gambar 15.</b> Hasil uji ping PC1 ke PC6
  </p>
   ```
 
@@ -202,8 +204,8 @@ Setelah semua konfigurasi selesai:
  ```
  
  <p align="center">
-   <img src="images/h15.png" alt="Gambar 15. Hasil uji ping PC2 ke PC3" width="500"/><br>
-   <b>Gambar 15.</b> Hasil uji ping PC2 ke PC3
+   <img src="images/h15.png" alt="Gambar 16. Hasil uji ping PC2 ke PC3" width="500"/><br>
+   <b>Gambar 16.</b> Hasil uji ping PC2 ke PC3
  </p>
 
  ✅ **PC4 ↔ PC5**  
@@ -213,8 +215,8 @@ Setelah semua konfigurasi selesai:
  ```
  
  <p align="center">
-   <img src="images/h16.png" alt="Gambar 16. Hasil uji ping PC4 ke PC5" width="500"/><br>
-   <b>Gambar 16.</b> Hasil uji ping PC4 ke PC5
+   <img src="images/h16.png" alt="Gambar 17. Hasil uji ping PC4 ke PC5" width="500"/><br>
+   <b>Gambar 17.</b> Hasil uji ping PC4 ke PC5
  </p>
  ```
 ---
