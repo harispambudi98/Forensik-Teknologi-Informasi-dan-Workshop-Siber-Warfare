@@ -67,12 +67,12 @@ Router(config)# ip route 192.168.3.0 255.255.255.0 10.10.10.2
 ```
 <p align="center">
   <img src="images/h2.png" alt="Gambar 2. Konfigurasi Router0 Fa0/0" width="400"/>
-  <img src="images/h3.png" alt="Gambar 3. Konfigurasi Router0 S0/0" width="400"/>
+  <img src="images/h3.png" alt="Gambar 3. Konfigurasi Router0 S2/0" width="400"/>
 </p>
 
 <p align="center">
   <b>Gambar 2.</b> Konfigurasi Router0 Fa0/0 &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Gambar 3.</b> Konfigurasi Router0 S0/0
+  <b>Gambar 3.</b> Konfigurasi Router0 S2/0
 </p>
 
 ```
@@ -95,12 +95,12 @@ Router(config)# ip route 192.168.3.0 255.255.255.0 20.20.20.1
 ```
 <p align="center">
   <img src="images/h4.png" alt="Gambar 4. Konfigurasi Router1 Fa0/0" width="400"/>
-  <img src="images/h5.png" alt="Gambar 5. Konfigurasi Router1 S0/0" width="400"/>
+  <img src="images/h5.png" alt="Gambar 5. Konfigurasi Router1 S2/0" width="400"/>
 </p>
 
 <p align="center">
   <b>Gambar 4.</b> Konfigurasi Router1 Fa0/0 &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Gambar 5.</b> Konfigurasi Router1 S0/0
+  <b>Gambar 5.</b> Konfigurasi Router1 S2/0
 </p>
 ```
 
@@ -120,12 +120,12 @@ Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
 ```
 <p align="center">
   <img src="images/h6.png" alt="Gambar 6. Konfigurasi Router2 Fa0/0" width="400"/>
-  <img src="images/h7.png" alt="Gambar 7. Konfigurasi Router2 S0/0" width="400"/>
+  <img src="images/h7.png" alt="Gambar 7. Konfigurasi Router2 S2/0" width="400"/>
 </p>
 
 <p align="center">
   <b>Gambar 6.</b> Konfigurasi Router2 Fa0/0 &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Gambar 7.</b> Konfigurasi Router2 S0/0
+  <b>Gambar 7.</b> Konfigurasi Router2 S2/0
 </p>
 
 ---
@@ -150,8 +150,8 @@ Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
 📍 **Subnet 2 – 192.168.2.0/24**  
 | Perangkat | IP Address   | Subnet Mask     | Default Gateway |
 |-----------|--------------|-----------------|-----------------|
-| PC1       | 192.168.2.1  | 255.255.255.0   | 192.168.2.100   |
-| PC2       | 192.168.2.2  | 255.255.255.0   | 192.168.2.100   |
+| PC3       | 192.168.2.1  | 255.255.255.0   | 192.168.2.100   |
+| PC4       | 192.168.2.2  | 255.255.255.0   | 192.168.2.100   |
 
 <p align="center">
   <img src="images/h10.png" alt="Gambar 10. Konfigurasi IP PC3" width="400"/>
@@ -166,8 +166,8 @@ Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
 📍 **Subnet 3 – 192.168.3.0/24**  
 | Perangkat | IP Address   | Subnet Mask     | Default Gateway |
 |-----------|--------------|-----------------|-----------------|
-| PC1       | 192.168.3.1  | 255.255.255.0   | 192.168.3.100   |
-| PC2       | 192.168.3.2  | 255.255.255.0   | 192.168.3.100   |
+| PC5       | 192.168.3.1  | 255.255.255.0   | 192.168.3.100   |
+| PC6       | 192.168.3.2  | 255.255.255.0   | 192.168.3.100   |
 
 <p align="center">
   <img src="images/h12.png" alt="Gambar 12. Konfigurasi IP PC5" width="400"/>
