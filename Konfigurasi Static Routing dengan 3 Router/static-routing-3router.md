@@ -131,8 +131,75 @@ Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
 </p>
 
 ---
+## 📌 5. Konfigurasi Static Routing
 
-## 💻 5. Konfigurasi IP Address  
+### 🔹 Router0
+```bash
+Router(config)# ip route 192.168.2.0 255.255.255.0 10.10.10.2
+Router(config)# ip route 192.168.3.0 255.255.255.0 10.10.10.2
+```
+
+### 🔹 Router1
+```bash
+Router(config)# ip route 192.168.1.0 255.255.255.0 10.10.10.1
+Router(config)# ip route 192.168.3.0 255.255.255.0 20.20.20.1
+```
+### 🔹 Router2
+```bash
+Router(config)# ip route 192.168.1.0 255.255.255.0 20.20.20.2
+Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
+```
+<p align="center">
+  <img src="images/19.png" alt="Gambar 9. Konfigurasi Static Router0 " width="300"/>
+  <img src="images/21.png" alt="Gambar 10. Konfigurasi Static Router1" width="300"/>
+  <img src="images/23.png" alt="Gambar 11. Konfigurasi Static Router2" width="300"/>
+</p>
+
+<p align="center">
+  <b>Gambar 9.</b> Konfigurasi Static Router0 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Gambar 10.</b> Konfigurasi Static Router1 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Gambar 11.</b> Konfigurasi Static Router2
+</p>
+
+## 📌 6. Konfigurasi Routing dengan RIP
+
+### 🔹 Router0
+```bash
+Router(config)# router rip
+Router(config-router)# version 2
+Router(config-router)# network 192.168.1.0
+Router(config-router)# network 10.10.10.0
+```
+
+### 🔹 Router1
+```bash
+Router(config)# router rip
+Router(config-router)# version 2
+Router(config-router)# network 192.168.2.0
+Router(config-router)# network 10.10.10.0
+Router(config-router)# network 20.20.20.0
+```
+
+### 🔹 Router2
+```bash
+Router(config)# router rip
+Router(config-router)# version 2
+Router(config-router)# network 192.168.3.0
+Router(config-router)# network 20.20.20.0
+```
+<p align="center">
+  <img src="images/18.png" alt="Gambar 12. Konfigurasi RIP Router0 " width="300"/>
+  <img src="images/20.png" alt="Gambar 13. Konfigurasi RIP Router1" width="300"/>
+  <img src="images/22.png" alt="Gambar 14. Konfigurasi RIP Router2" width="300"/>
+</p>
+
+<p align="center">
+  <b>Gambar 12.</b> Konfigurasi RIP Router0 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Gambar 13.</b> Konfigurasi RIP Router1 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Gambar 14.</b> Konfigurasi RIP Router2
+</p>
+
+## 💻 7. Konfigurasi IP Address  
 📍 **Subnet 1 – 192.168.1.0/24**  
 | Perangkat | IP Address   | Subnet Mask     | Default Gateway |
 |-----------|--------------|-----------------|-----------------|
@@ -140,13 +207,13 @@ Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
 | PC2       | 192.168.1.2  | 255.255.255.0   | 192.168.1.100   |
 
 <p align="center">
-  <img src="images/h8.png" alt="Gambar 9. Konfigurasi IP PC1" width="400"/>
-  <img src="images/h9.png" alt="Gambar 10. Konfigurasi IP PC2" width="400"/>
+  <img src="images/h8.png" alt="Gambar 15. Konfigurasi IP PC1" width="400"/>
+  <img src="images/h9.png" alt="Gambar 16. Konfigurasi IP PC2" width="400"/>
 </p>
 
 <p align="center">
-  <b>Gambar 9.</b> Konfigurasi IP PC 1 &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Gambar 10.</b> Konfigurasi IP PC 2
+  <b>Gambar 15.</b> Konfigurasi IP PC 1 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Gambar 16.</b> Konfigurasi IP PC 2
 </p>
 
 📍 **Subnet 2 – 192.168.2.0/24**  
@@ -156,13 +223,13 @@ Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
 | PC4       | 192.168.2.2  | 255.255.255.0   | 192.168.2.100   |
 
 <p align="center">
-  <img src="images/h10.png" alt="Gambar 11. Konfigurasi IP PC3" width="400"/>
-  <img src="images/h11.png" alt="Gambar 12. Konfigurasi IP PC4" width="400"/>
+  <img src="images/h10.png" alt="Gambar 17. Konfigurasi IP PC3" width="400"/>
+  <img src="images/h11.png" alt="Gambar 18. Konfigurasi IP PC4" width="400"/>
 </p>
 
 <p align="center">
-  <b>Gambar 11.</b> Konfigurasi IP PC 3 &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Gambar 12.</b> Konfigurasi IP PC 4
+  <b>Gambar 17.</b> Konfigurasi IP PC 3 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Gambar 18.</b> Konfigurasi IP PC 4
 </p>
 
 📍 **Subnet 3 – 192.168.3.0/24**  
@@ -172,16 +239,16 @@ Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
 | PC6       | 192.168.3.2  | 255.255.255.0   | 192.168.3.100   |
 
 <p align="center">
-  <img src="images/h12.png" alt="Gambar 13. Konfigurasi IP PC5" width="400"/>
-  <img src="images/h13.png" alt="Gambar 14. Konfigurasi IP PC6" width="400"/>
+  <img src="images/h12.png" alt="Gambar 19. Konfigurasi IP PC5" width="400"/>
+  <img src="images/h13.png" alt="Gambar 20. Konfigurasi IP PC6" width="400"/>
 </p>
 
 <p align="center">
-  <b>Gambar 13.</b> Konfigurasi IP PC 5 &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Gambar 14.</b> Konfigurasi IP PC 6
+  <b>Gambar 19.</b> Konfigurasi IP PC 5 &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Gambar 20.</b> Konfigurasi IP PC 6
 </p>
 
-##  🔍 6. Pengujian Koneksi 
+##  🔍 8. Pengujian Koneksi 
 Setelah semua konfigurasi selesai:
  Coba **ping antar PC lintas jaringan**.  
 
@@ -192,8 +259,8 @@ Setelah semua konfigurasi selesai:
  ```
  
  <p align="center">
-   <img src="images/h14.png" alt="Gambar 15. Hasil uji ping PC1 ke PC6" width="500"/><br>
-   <b>Gambar 15.</b> Hasil uji ping PC1 ke PC6
+   <img src="images/h14.png" alt="Gambar 21. Hasil uji ping PC1 ke PC6" width="500"/><br>
+   <b>Gambar 21.</b> Hasil uji ping PC1 ke PC6
  </p>
   ```
 
@@ -204,8 +271,8 @@ Setelah semua konfigurasi selesai:
  ```
  
  <p align="center">
-   <img src="images/h15.png" alt="Gambar 16. Hasil uji ping PC2 ke PC3" width="500"/><br>
-   <b>Gambar 16.</b> Hasil uji ping PC2 ke PC3
+   <img src="images/h15.png" alt="Gambar 22. Hasil uji ping PC2 ke PC3" width="500"/><br>
+   <b>Gambar 22.</b> Hasil uji ping PC2 ke PC3
  </p>
 
  ✅ **PC4 ↔ PC5**  
@@ -215,13 +282,13 @@ Setelah semua konfigurasi selesai:
  ```
  
  <p align="center">
-   <img src="images/h16.png" alt="Gambar 17. Hasil uji ping PC4 ke PC5" width="500"/><br>
-   <b>Gambar 17.</b> Hasil uji ping PC4 ke PC5
+   <img src="images/h16.png" alt="Gambar 23. Hasil uji ping PC4 ke PC5" width="500"/><br>
+   <b>Gambar 23.</b> Hasil uji ping PC4 ke PC5
  </p>
  ```
 ---
 
-## 📌 7. Kesimpulan
+## 📌 9. Kesimpulan
 - Dengan konfigurasi **Static Routing**, setiap router diberi tahu secara manual jalur menuju jaringan lain.  
 - Topologi ini memungkinkan komunikasi antar **3 LAN berbeda** (192.168.1.0/24, 192.168.2.0/24, 192.168.3.0/24).  
 - Static Routing cocok untuk topologi kecil, tetapi pada jaringan besar lebih baik gunakan **Dynamic Routing (RIP, OSPF, EIGRP)**.  
