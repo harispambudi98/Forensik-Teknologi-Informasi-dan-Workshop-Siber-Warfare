@@ -30,7 +30,7 @@ nmap -sV -sC -O 192.168.100.10
 # 📊 **Ringkasan Hasil Scan Port**
 
   Port       Status   Layanan      Deskripsi
-  ---------- -------- ------------ ------------------------------------------
+  ---------- -------- ------------ --------------------------------------
   21         open     FTP          vsftpd 2.3.4 (anonymous login, backdoor)
   22         open     SSH          OpenSSH 4.7p1 (algoritma lama)
   23         open     Telnet       Tidak terenkripsi
@@ -226,32 +226,33 @@ nmap -sV -sC -O 192.168.100.10
 
 🧨 Kesimpulan Keamanan Sistem
 
-Host Metasploitable2 adalah sistem yang sengaja dibuat rentan, dan hasil scan menunjukkan:
+Metasploitable2 secara desain sangat rentan. Hasil scan menunjukkan:
 
-    Banyak layanan lama & tidak di-update
+🔥 Banyak port terbuka (lebih dari 20 layanan berjalan)
 
-    Password default (bahkan kosong)
+⛔ Layanan versi lama dan mengandung CVE publik
 
-    Banyak port kritis terbuka
+🔓 Password default bahkan ada yang kosong
 
-    Beberapa layanan memiliki backdoor
+🛑 Beberapa layanan mengandung backdoor
 
-    Rentan terhadap Remote Code Execution (RCE)
+🐚 Banyak celah Remote Code Execution (RCE)
 
-    Rentan data theft, privilege escalation, dan lateral movement
+🔄 Berpotensi privilege escalation & lateral movement
 
-Status Keamanan Keseluruhan: 🔴 SANGAT RENTAN (CRITICAL)
+Status Keamanan: 🔴 SANGAT RENTAN (CRITICAL)
 
-Metasploitable2 cocok digunakan untuk latihan:
+Sistem sangat cocok untuk:
 
-    Penetration Testing
+Pembelajaran penetration testing
 
-    Eksploitasi
+Eksploitasi menggunakan Metasploit
 
-    Analisis Vulnerability
+Analisis traffic IDS/IPS
 
-    Belajar Security Tools
+Simulasi serangan untuk tugas akhir
 ------------------------------------------------------------------------
+
 ✍️ Penyusun
 
 Putra Haris Pambudi
