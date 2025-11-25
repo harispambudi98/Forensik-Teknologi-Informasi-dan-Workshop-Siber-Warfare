@@ -1,55 +1,60 @@
 # 🚀 **Laporan Hasil Scan Nmap – Metasploitable2**
 **Target Host:** `192.168.100.10`  
 
----
+------------------------------------------------------------------------
 
 ## 🖥️ **Screenshot Hasil Scan**
 
 ### 📌 Screenshot 1
 <img src="images/hp1.jpg" width="800">
 
----
+------------------------------------------------------------------------
 
 ### 📌 Screenshot 2
 <img src="images/hp2.jpg" width="800">
 
----
+------------------------------------------------------------------------
 
 ### 📌 Screenshot 3
 <img src="images/hp3.jpg" width="800">
 
----
+------------------------------------------------------------------------
 
 # 🛠️ **Perintah Nmap yang Digunakan**
 
 ```bash
 nmap -sV -sC -O 192.168.100.10
 
-📊 Tabel Ringkasan Hasil Scan Port
-Port	Status	Layanan	Deskripsi
-21	open	FTP	vsftpd 2.3.4, anonymous login, versi rentan/backdoor
-22	open	SSH	OpenSSH 4.7p1, RSA/DSA lawas
-23	open	Telnet	Tidak terenkripsi
-25	open	SMTP	Postfix smtpd, VRFY aktif
-53	open	DNS	BIND 9.4.2
-80	open	HTTP	Apache 2.2.8, WebDAV
-111	open	RPCBind	Pemetaan RPC
-139/445	open	SMB	Samba 3.0.20, signing off
-512	open	rexec	RServices
-513	open	rlogin	RServices
-514	open	rsh	RServices
-1099	open	Java RMI	Rentan RCE
-2049	open	NFS	Dapat di-mount tanpa auth
-2121	open	ProFTPD	Versi 1.3.1, rentan RCE
-3306	open	MySQL	root tanpa password
-3632	open	distccd	Rentan RCE
-5432	open	PostgreSQL	Versi lama
-5900	open	VNC	Tidak terenkripsi
-6000	open	X11	Akses GUI remote
-6667	open	UnrealIRCd	Memiliki backdoor
-7001	open	Apache JServ	Rentan traversal
-8009	open	AJP13	Rentan file inclusion
-8180	open	Tomcat	Admin login lemah
+------------------------------------------------------------------------
+
+# 📊 **Ringkasan Hasil Scan Port**
+
+  Port       Status   Layanan      Deskripsi
+  ---------- -------- ------------ ------------------------------------------
+  21         open     FTP          vsftpd 2.3.4 (anonymous login, backdoor)
+  22         open     SSH          OpenSSH 4.7p1 (algoritma lama)
+  23         open     Telnet       Tidak terenkripsi
+  25         open     SMTP         Postfix, VRFY aktif
+  53         open     DNS          BIND 9.4.2
+  80         open     HTTP         Apache 2.2.8 + WebDAV
+  111        open     RPCBind      Pemetaan RPC
+  139/445    open     SMB          Samba 3.0.20 (signing off)
+  512--514   open     RServices    rlogin, rexec, rsh (tidak aman)
+  1099       open     Java RMI     Rentan RCE
+  2049       open     NFS          Dapat di-mount tanpa autentikasi
+  2121       open     ProFTPD      Versi lama, RCE
+  3306       open     MySQL        root tanpa password
+  3632       open     distccd      Rentan remote shell
+  5432       open     PostgreSQL   Versi lama
+  5900       open     VNC          Tidak terenkripsi
+  6000       open     X11          Akses GUI + keylogging
+  6667       open     UnrealIRCd   Backdoor bawaan
+  7001       open     JServ        Rentan traversal
+  8009       open     AJP13        Rentan file inclusion
+  8180       open     Tomcat       Admin lemah
+
+------------------------------------------------------------------------
+
 🔍 Analisis Kerentanan per Port
 🔸 Port 21 – FTP (vsftpd 2.3.4)
 
@@ -58,6 +63,7 @@ Port	Status	Layanan	Deskripsi
     Memiliki backdoor vulnerability
 
     Risiko: 🔥 High
+------------------------------------------------------------------------
 
 🔸 Port 22 – SSH
 
@@ -66,6 +72,7 @@ Port	Status	Layanan	Deskripsi
     Algoritma kunci lemah
 
     Risiko: ⚠️ Medium
+------------------------------------------------------------------------
 
 🔸 Port 23 – Telnet
 
@@ -74,6 +81,7 @@ Port	Status	Layanan	Deskripsi
     Password mudah disadap
 
     Risiko: 🔥 High
+------------------------------------------------------------------------
 
 🔸 Port 25 – SMTP (Postfix)
 
@@ -82,6 +90,7 @@ Port	Status	Layanan	Deskripsi
     Rentan mail relay
 
     Risiko: ⚠️ Medium
+------------------------------------------------------------------------
 
 🔸 Port 53 – DNS (Bind 9.4.2)
 
@@ -90,6 +99,7 @@ Port	Status	Layanan	Deskripsi
     Banyak CVE publik
 
     Risiko: ⚠️ Medium
+------------------------------------------------------------------------
 
 🔸 Port 80 – HTTP (Apache 2.2.8)
 
@@ -98,6 +108,7 @@ Port	Status	Layanan	Deskripsi
     Banyak eksploit RCE
 
     Risiko: 🔥 High
+------------------------------------------------------------------------
 
 🔸 Port 139/445 – SMB (Samba 3.0.20)
 
@@ -106,6 +117,7 @@ Port	Status	Layanan	Deskripsi
     Rentan RCE (CVE-2007, CVE-2017)
 
     Risiko: 🚨 Critical
+------------------------------------------------------------------------
 
 🔸 Port 512/513/514 – RServices
 
@@ -114,12 +126,14 @@ Port	Status	Layanan	Deskripsi
     Menggunakan autentikasi host-based
 
     Risiko: 🔥 High
+------------------------------------------------------------------------
 
 🔸 Port 1099 – Java RMI
 
     Rentan Remote Code Execution
 
     Risiko: 🔥 High
+------------------------------------------------------------------------
 
 🔸 Port 2049 – NFS
 
@@ -128,24 +142,28 @@ Port	Status	Layanan	Deskripsi
     Pengambilalihan file sistem
 
     Risiko: 🔥 High
+------------------------------------------------------------------------
 
 🔸 Port 2121 – ProFTPD 1.3.1
 
     Banyak bug RCE
 
     Risiko: 🔥 High
+------------------------------------------------------------------------
 
 🔸 Port 3306 – MySQL
 
     root tanpa password
 
     Risiko: 🚨 Critical
+------------------------------------------------------------------------
 
 🔸 Port 3632 – distccd
 
     Rentan dieksploitasi untuk mendapat shell
 
     Risiko: 🔥 High
+------------------------------------------------------------------------
 
 🔸 Port 5432 – PostgreSQL
 
@@ -154,6 +172,7 @@ Port	Status	Layanan	Deskripsi
     Mudah di-bruteforce
 
     Risiko: ⚠️ Medium
+------------------------------------------------------------------------
 
 🔸 Port 5900 – VNC
 
@@ -162,12 +181,14 @@ Port	Status	Layanan	Deskripsi
     Rentan sniffing & brute-force
 
     Risiko: 🔥 High
+------------------------------------------------------------------------
 
 🔸 Port 6000 – X11
 
     Dapat screenshot, keylogging
 
     Risiko: 🔥 High
+------------------------------------------------------------------------
 
 🔸 Port 6667 – UnrealIRCd
 
@@ -176,12 +197,14 @@ Port	Status	Layanan	Deskripsi
     Dapat menjalankan perintah sistem
 
     Risiko: 🚨 Critical
+------------------------------------------------------------------------
 
 🔸 Port 7001 – Apache JServ
 
     Rentan directory traversal
 
     Risiko: ⚠️ Medium
+------------------------------------------------------------------------
 
 🔸 Port 8009 – AJP13
 
@@ -190,6 +213,7 @@ Port	Status	Layanan	Deskripsi
     Dapat upload webshell
 
     Risiko: 🔥 High
+------------------------------------------------------------------------
 
 🔸 Port 8180 – Apache Tomcat
 
@@ -198,6 +222,7 @@ Port	Status	Layanan	Deskripsi
     Rentan upload shell melalui Manager
 
     Risiko: 🔥 High
+------------------------------------------------------------------------
 
 🧨 Kesimpulan Keamanan Sistem
 
@@ -226,7 +251,8 @@ Metasploitable2 cocok digunakan untuk latihan:
     Analisis Vulnerability
 
     Belajar Security Tools
-
+------------------------------------------------------------------------
 ✍️ Penyusun
 
 Putra Haris Pambudi
+------------------------------------------------------------------------
