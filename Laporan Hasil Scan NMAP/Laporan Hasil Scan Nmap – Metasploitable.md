@@ -255,5 +255,5 @@ Simulasi serangan untuk tugas akhir
 
 ✍️ Penyusun
 
-Putra Haris Pambudi
+ Haris Pambudi
 ------------------------------------------------------------------------
